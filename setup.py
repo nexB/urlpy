@@ -41,7 +41,7 @@ This version is a friendly fork of the upstream url.py from Moz to keep a pure
 Python version around to run on Python 2 and 3 and all OSes.
 ''',
     author='nexB Inc (based on code from Dan Lecocq)',
-    url='http://github.com/nexB/urlpy',
+    url='http://github.com/aboutcode-org/urlpy',
     py_modules=['urlpy'],
     license='MIT',
     classifiers=[

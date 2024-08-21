@@ -2,7 +2,7 @@ URLPY
 =====
 
 urlpy is a small library for URL parsing, cleanup, canonicalization and equivalence.
-You can find it at https://github.com/nexB/urlpy
+You can find it at https://github.com/aboutcode-org/urlpy
 urlpy is MIT-licensed.
 
 urlpy is derived from Moz's url.py v0.2.0 and has been simplified to run on
@@ -95,7 +95,7 @@ ordering happens to be alphabetical order::
 --------
 
 Remove any fragment identifier from the url. This isn't part of the reuqest
-that gets sent to an HTTP server, and so it's often useful to remove the 
+that gets sent to an HTTP server, and so it's often useful to remove the
 fragment when doing url comparisons::
 
     >>> str(urlpy.parse('http://foo.com/#foo').defrag())
@@ -140,7 +140,7 @@ the `escape` function is idempotent, and can be called repeatedly::
 ----------
 
 If you have a URL that might have been escaped before it was given to you, but
-you'd like to display something a little more meaningful than `%C3%BCmlaut`, 
+you'd like to display something a little more meaningful than `%C3%BCmlaut`,
 you can unescape the path::
 
     >>> print(urlpy.parse('http://foo.com/%C3%BCmlaut').unescape())

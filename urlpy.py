@@ -1,5 +1,3 @@
-#!/usr/bin/env python
-#
 # Copyright (c) nexB, Inc.
 # Copyright (c) 2012-2015 SEOmoz, Inc.
 #
